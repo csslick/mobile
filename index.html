@@ -19,18 +19,20 @@
         }
 
         #app > .wrapper {
+            z-index: 999;
             position: absolute;
             top: 104px;
-            left: 49px;
+            left: 48px;
             width: 375px;
             height: 667px;
             box-sizing: border-box;
             /* 수정 */
             overflow: hidden;
-            overflow-y: scroll;
+            border: 4px solid #000;
+            
         }
         iframe { 
-            /* transform: translateX(-10px); */
+            /* 스크롤 바를 없애 버렸음 ㅠㅜ */
         }
     </style>
 </head>
