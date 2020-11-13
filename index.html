@@ -25,6 +25,12 @@
             width: 375px;
             height: 667px;
             box-sizing: border-box;
+            /* 수정 */
+            overflow: hidden;
+            overflow-y: scroll;
+        }
+        iframe { 
+            /* transform: translateX(-10px); */
         }
     </style>
 </head>
@@ -32,10 +38,11 @@
     <h1>Mobile Portfolio</h1>
     <div id="app">
         <div class="wrapper">
+            <!-- 스크롤바 영역 +25px 보정 -->
             <iframe
-            width="375px"
+            width="400px"
             height="100%" 
-            src="https://aadanie4.github.io/mobile_invi/" style="overflow-x: hidden;" frameborder="0">
+            src="https://aadanie4.github.io/mobile_invi/" frameborder="0">
             </iframe>
         </div>
     </div>
